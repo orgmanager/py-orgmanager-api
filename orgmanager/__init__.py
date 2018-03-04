@@ -11,7 +11,7 @@ def makeRequest(self, method, uri, formData):
 		'authorization': 'Bearer {token}'.format(
 			token = self.token
 		),
-		'user-agent': 'php-orgmanager-api',
+		'user-agent': 'py-orgmanager-api',
 	}
 
 	response = requests.request(str(method), url, data=data, headers=headers)
