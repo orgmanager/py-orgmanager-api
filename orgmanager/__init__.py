@@ -56,7 +56,7 @@ class orgmanager:
 		'''
 		return makeRequest(self, 'GET', '/user/orgs', {})
 
-	def getOrg(selfid):
+	def getOrg(self, id):
 		'''
 		Get org info
 		'''
